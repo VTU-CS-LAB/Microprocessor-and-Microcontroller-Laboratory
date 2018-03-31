@@ -50,4 +50,4 @@ back:
 pal:
         disp msg1
         exit
-end                
+end

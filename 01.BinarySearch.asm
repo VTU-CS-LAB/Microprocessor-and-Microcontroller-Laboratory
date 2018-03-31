@@ -58,4 +58,4 @@ next2:
 stop:
         disp msg2
         exit
-end                                                
+end
