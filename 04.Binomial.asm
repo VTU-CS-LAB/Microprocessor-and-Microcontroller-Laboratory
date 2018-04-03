@@ -33,7 +33,7 @@
 
             dec ax
             cmp ax, bx
-            inc_1
+            je inc_1
 
             push ax
             push bx
