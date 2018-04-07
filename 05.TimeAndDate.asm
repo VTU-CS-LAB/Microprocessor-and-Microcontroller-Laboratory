@@ -51,7 +51,7 @@
         mov dl, ':'
         disp
 
-        mov al, dl
+        mov al, dh
         call display
 
         disps msg2
