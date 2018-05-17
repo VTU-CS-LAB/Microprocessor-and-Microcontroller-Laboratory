@@ -134,7 +134,7 @@ void wr_dn(void) ////write data reg
 void lcd_data(void)
 {
     temp = temp1 & 0xf0;
-    temp = temp; //<< 6;
+    temp = temp << 6;
     wr_dn();
     temp = temp1 & 0x0f;
     temp = temp << 4;
