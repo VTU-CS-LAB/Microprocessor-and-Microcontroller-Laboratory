@@ -3,7 +3,7 @@
 the help of a suitable program)
 */
 
-#include <LPC241X.h>
+#include <LPC214X.h>
 
 int main()
 {
