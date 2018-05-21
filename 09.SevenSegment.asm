@@ -73,7 +73,7 @@ bck:
             delay endp
 
         display proc
-            mov cx, 18
+            mov cx, 08
 back3:
             rol bl, 1
             jc val1
