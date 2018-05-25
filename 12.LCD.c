@@ -78,7 +78,7 @@ void lcd_init(void)
     // load command for lcd function setting with lcd in 4 bit mode,
     // 2 line and 5x7 matrix display
 
-    temp = 0x28;
+    temp1 = 0x28;
     lcd_com();
     delay(3200);
 
@@ -134,7 +134,6 @@ void wr_dn(void) ////write data reg
 void lcd_data(void)
 {
     temp = temp1 & 0xf0;
-    // temp = temp << 6;
     wr_dn();
     temp = temp1 & 0x0f;
     temp = temp << 4;
