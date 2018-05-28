@@ -60,7 +60,7 @@ back2:
             push cx
             mov cx, 0fffh
 bck1:
-            mov bx, 0fffh
+            mov bx, 0ffh
 bck:
             dec bx
             jnz bck
